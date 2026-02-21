@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 
+    <!-- font awsome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
         *{
             font-family: 'Geist', sans-serif;
@@ -25,7 +29,7 @@
         <h1 class="text-3xl font-bold pt-[60px] text-[#002C5C]">Job Application Tracker</h1>
     </header>
     <section class="container mx-auto mt-[60px] pb-[60px]">
-        <div class=" grid grid-cols-3 gap-4 ">
+        <div class=" sm:grid grid-cols-1 space-y-4 lg:grid grid-cols-3 gap-4">
             <div class="bg-[#FFFFFF]  p-4 rounded-lg">
                 <p class="text-[#323B49]">Total</p>
                 <h2 class="text-2xl font-bold text-[#002C5C]" >8</h2>
@@ -34,7 +38,7 @@
                 <p class="text-[#323B49]">Interview</p>
                 <h2 class="text-2xl font-bold text-[#10B981]" >0</h2>
             </div>
-            <div class="bg-[#FFFFFF]  p-4 rounded-lg">
+            <div class="bg-[#FFFFFF]  p-4 rounded-lg h-[87px]">
                 <p class="text-[#323B49]">Rejected</p>
                 <h2 class="text-2xl font-bold text-[#EF4444]" >0</h2>
             </div>
@@ -64,11 +68,22 @@
 
     <section>
         <div class="container mx-auto">
-            <div class="bg-[#FFFFFF] p-4 rounded-lg">
-                <h2 class="text-2xl font-bold text-[#002C5C] mb-4">Applications</h2>
-                <p class="text-[#323B49]">Software Engineer at Google</p>
-                <p class="text-[#323B49]">Applied on: 2024-06-01</p>
-                <p class="text-[#323B49]">Status: Applied</p>
+            <div class="bg-[#FFFFFF] p-[24px] rounded-lg">
+                <div class=" flex items-center justify-between mb-4">
+                    <div class="">
+                        <h2 class="text-2xl font-bold text-[#002C5C] mb-2">Mobile First Corp</h2>
+                        <p class="text-[#64748B] text-xl font-medium">React Native Developer</p>
+                    </div>
+                    <button class="btn btn-secondary text-[#FFFFFF] rounded-full"><i class="fa-solid fa-trash"></i></button>
+                </div>
+                <p class=" text-[#64748B] text-[20px] font-medium"> Remote • Full-time • $130,000 - $175,000</p>
+                <button class="btn btn-soft btn-primary text-[#002C5C] mt-2 mb-2">Not Applied</button>
+
+                <p class="text-[#323B49] font-[20px] font-medium mt-2 mb-2">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+                <div class="">
+                    <button class="btn btn-outline btn-accent">Accent</button>
+                    <button class="btn btn-primary text-[#FFFFFF]">View Details</button>
+                </div>
             </div>
         </div>
     </section>
