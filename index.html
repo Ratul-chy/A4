@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A4</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Geist', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="tailwind.css">
+
+</head>
+<body class="bg-[#F8FAFC]">
+    <header class="container mx-auto">
+        <h1 class="text-3xl font-bold pt-[60px] text-[#002C5C]">Job Application Tracker</h1>
+    </header>
+    <section class="container mx-auto mt-[60px] pb-[60px]">
+        <div class=" grid grid-cols-3 gap-4 ">
+            <div class="bg-[#FFFFFF]  p-4 rounded-lg">
+                <p class="text-[#323B49]">Total</p>
+                <h2 class="text-2xl font-bold text-[#002C5C]" >8</h2>
+            </div>
+            <div class="bg-[#FFFFFF]  p-4 rounded-lg">
+                <p class="text-[#323B49]">Interview</p>
+                <h2 class="text-2xl font-bold text-[#10B981]" >0</h2>
+            </div>
+            <div class="bg-[#FFFFFF]  p-4 rounded-lg">
+                <p class="text-[#323B49]">Rejected</p>
+                <h2 class="text-2xl font-bold text-[#EF4444]" >0</h2>
+            </div>
+        </div>
+    </section>
+    <hr class="container mx-auto">
+
+    <!-- Available Jobs -->
+
+    <section>
+        <div class="container mx-auto pt-[60px] flex items-center justify-between pb-[60px]">
+            <h1 class="text-2xl font-bold text-[#111827]">Available Jobs</h1>
+            <p class=" font-semibold text-[#64748B]">8 jobs</p>
+        </div>
+    </section>
+
+    <!-- all jobs button  -->
+
+    <section>
+        <div class="container mx-auto flex items-center justify-start pb-[60px] gap-3">
+            <button class="btn btn-primary text-[#FFFFFF]">All Jobs</button>
+            <button class="btn btn-primary text-[#FFFFFF]">Interview</button>
+            <button class="btn btn-primary text-[#FFFFFF]">Rejected</button>
+        </div>
+        
+    </section>
+
+    <section>
+        <div class="container mx-auto">
+            <div class="bg-[#FFFFFF] p-4 rounded-lg">
+                <h2 class="text-2xl font-bold text-[#002C5C] mb-4">Applications</h2>
+                <p class="text-[#323B49]">Software Engineer at Google</p>
+                <p class="text-[#323B49]">Applied on: 2024-06-01</p>
+                <p class="text-[#323B49]">Status: Applied</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
